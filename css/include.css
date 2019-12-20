@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+
+/*--HEADER START--*/
+
+#header{}
+
+.headerTop{
+	background:#282828;
+	font-size:12px;
+	height:40px;
+	line-height:40px;
+}
+.headerTop a{
+	color:#fff;
+	display:block;
+}
+
+.engBtn{
+	width:80px;
+	text-align:center;
+	border-left:1px solid #231f20;
+	border-right:1px solid #231f20;
+	float:left;
+}
+
+
+.utill{
+	float:right;
+}
+.utill li{
+	float:left;
+	border-left:1px solid #231f20;
+}
+
+.utill li:last-child a{
+	padding-right:0;
+}
+.utill a{
+	padding:0 20px;
+}
+.utill li span{
+	margin-right:10px;
+}
+.utill li img{}
+
+
+
+.headerBottom{
+	padding:20px 0;
+}
+.headerBottom h1{
+	float:left;
+	width:180px;
+}
+
+.headerBottom h1 a{}
+.headerBottom h1 img{
+	width:100%;
+}
+
+
+.gnb{
+	float:right;
+	height:43px;
+	line-height:43px;
+	font-weight:bold;
+}
+.gnb li{
+	float:left;
+	padding-left:50px;
+}
+.gnb a{
+	color:#333;
+}
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+#footer{
+	position:relative;
+	
+}
+
+.topBtn{
+	width:102px;
+	height:39px;	background:url(../images/common/btn_go_top.png) no-repeat;
+	position:absolute;
+	left:50%;
+	margin-left:-51px;
+	top:-39px;
+}
+.topBtn a{
+	padding-top:11px;
+	padding-left: 31px;
+	display:block;
+	color:#646464;
+}
+
+.footerTop{
+	background:#282828;
+	color:#646464;
+	font-size:16px;
+	font-weight:bold;
+	padding:50px 0;
+}
+.footerTop dl{
+	float:left;
+	margin-right:80px;
+}
+.footerTop dt{}
+
+.footerTop dt:after{
+	content:"";
+	display:block;
+	width:33px;
+	height:2px;
+	background:#8c8c8c;
+	margin:10px 0;
+
+}
+
+.footerTop dd{}
+.footerTop a{
+	color:#8c8c8c;
+	font-size:12px;
+	font-weight:normal;
+}
+
+
+
+
+.footerBottom{
+	background:#1e1e1e;
+	color:#8c8c8c;
+	padding:50px 0;
+}
+
+
+.footerBottom .inner{
+	position:relative;
+}
+
+
+.fLogo{
+	width:180px;
+	margin-bottom: 20px;
+}
+.fLogo img{
+	width:100%;
+}
+
+.footerBottom p{
+	font-size:0px;
+}
+.footerBottom span{
+	font-size:12px;
+}
+
+.footerBottom span:after{
+	content:"";
+	display:inline-block;
+	width:1px;
+	height:8px;
+	background:#ccc;
+	margin:0 5px;
+	
+}
+.footerBottom span:last-child:after{
+	display:none;
+}
+
+
+
+
+
+.footerBottom a{
+	color:#8c8c8c;
+}
+
+
+.footerBottom .copy{
+	font-size:12px;
+	margin-top:20px;
+	
+}
+
+.fSns{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.fSns li{
+	float:left;
+	margin-left:5px;
+}
+.fSns a{}
+.fSns img{
+	width:25px;
+}
+
+
+
+
+
+
+
+
+
+

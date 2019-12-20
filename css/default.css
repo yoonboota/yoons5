@@ -1,0 +1,44 @@
+/*default 자체가 기본셋팅*/
+
+@charset "uft-8";
+
+body{
+	font-family: 'Noto Sans',sans-serif;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,dd,dl{
+	margin:0;
+}
+
+body,h1,h2,h3,h4,h5,h6{
+	font-family: 'Noto Serif', serif;
+	
+}
+
+img,a{
+	outline:none;
+	border:none;
+}
+
+
+a{
+	text-decoration:none;
+}
+
+ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+.inner{
+	width:1200px;
+	margin:0 auto;
+}
+
+.cf:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
